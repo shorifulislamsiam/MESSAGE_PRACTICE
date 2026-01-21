@@ -10,13 +10,15 @@ class LoginScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
+        //netlify adding
+
         body: Center(
           child: Column(
            
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               SizedBox(height: 30),
-              Container(child: Text("Login Screen")),
+              SizedBox(child: Text("Login Screen")),
               SizedBox(height: 30),
                Obx(() {
                 if (!loginController.isInitialized.value) {
@@ -62,7 +64,7 @@ class LoginScreen extends StatelessWidget {
 class HomeScreen extends StatelessWidget {
   final LoginController authController = Get.find<LoginController>();
 
-  HomeScreen({Key? key}) : super(key: key);
+  HomeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
