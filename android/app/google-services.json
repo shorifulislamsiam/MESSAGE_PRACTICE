@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "117895636744",
+    "project_id": "messagepractice-79eee",
+    "storage_bucket": "messagepractice-79eee.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117895636744:android:3874fe40fe8b75edeb2ebd",
+        "android_client_info": {
+          "package_name": "com.example.message_practice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "117895636744-u9cngqps4o3ujdonalg2hjo2dpu4iq4t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.message_practice",
+            "certificate_hash": "2000fa6c86f0c213d87c2a08ed30dbb6af4b66d4"
+          }
+        },
+        {
+          "client_id": "117895636744-139me16ou529cbt6o6do4atvp0u29tca.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrtkcEl8YIhldFCBkiMy3KjYQKg0kFyuo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "117895636744-139me16ou529cbt6o6do4atvp0u29tca.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "117895636744-bkmh67rh367ogbsmg53hs01e42n2v7gg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.messagePractice"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
